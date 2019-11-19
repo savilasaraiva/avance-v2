@@ -76,34 +76,88 @@
                     <div class="container login-container text-center">
                         <div class="row wow">
                             <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                                <div class="card card-signin my-5">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Login</h5>
-                                        <form class="form-signin">
-                                            <div class="form-label-group">
-                                                <input type="email" id="inputEmail" class="form-control"
-                                                    placeholder="Email" required autofocus>
-                                                <label for="inputEmail">Email</label>
-                                            </div>
+                                <div class="card-body">
+                                    <!-- Default form register -->
+                                    <form class="text-center border border-light p-5" action="#!">
+                                        <p class="h4 mb-4">Cadastro</p>
 
-                                            <div class="form-label-group">
-                                                <input type="password" id="inputPassword" class="form-control"
-                                                    placeholder="Senha" required>
-                                                <label for="inputPassword">Senha</label>
+                                        <div class="form-row mb-4">
+                                            <div class="col">
+                                                <!-- First name -->
+                                                <input type="text" id="nome" class="form-control" placeholder="Nome">
                                             </div>
-
-                                            <div class="custom-control custom-checkbox mb-3">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                                <label class="custom-control-label" for="customCheck1">Lembrar
-                                                    senha</label>
+                                            <div class="col">
+                                                <!-- Last name -->
+                                                <input type="text" id="sobrenome" class="form-control"
+                                                    placeholder="Sobrenome">
                                             </div>
-                                            <a href="dashboard1.html"
-                                                class="btn btn-lg btn-primary btn-block text-uppercase">Entrar</a>
-                                            <!-- <button class="btn btn-lg btn-primary btn-block text-uppercase"
-                                                type="submit">Entrar</button> -->
+                                        </div>
 
+                                        <!-- Date Birth number -->
+                                        <input type="date" id="nasc" class="form-control mb-4"
+                                            placeholder="Data de Nascimento">
+
+                                        <!-- CPF number -->
+                                        <input type="text" id="cpf" class="form-control" placeholder="CPF"
+                                            aria-describedby="cpfHelp">
+                                        <small id="cpfHelp" class="form-text text-muted mb-4">
+                                            Formato: XXX.XXX.XXX-XX
+                                        </small>
+
+                                        <!-- E-mail -->
+                                        <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
+
+                                        <!-- Password -->
+                                        <input type="password" id="password" class="form-control" placeholder="Senha"
+                                            aria-describedby="passwordHelpBlock">
+                                        <small id="passwordHelpBlock" class="form-text text-muted mb-4">
+                                            Pelo menos 8 caracteres e 1 dígito
+                                        </small>
+
+                                        <!-- Sign up button -->
+                                        <button class="btn btn-info my-4 btn-block" type="submit">Cadastrar</button>
+                                    </form>
+                                    <!-- Default form register -->
+                                    <!-- <div class="form">
+                                        <form action="" method="post" role="form" class="contactForm">
+                                            <div class="form-group">
+                                                <input type="text" name="name" class="form-control" id="name"
+                                                    placeholder="Nome" data-rule="minlen:4"
+                                                    data-msg="Digite pelo menos 4 caracteres" />
+                                                <div class="validation"></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="cpf" id="cpf"
+                                                    placeholder="CPF" data-rule="minlen:9"
+                                                    data-msg="Por favor digite um cpf válido" />
+                                                <div class="validation"></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="cpf" id="cpf" placeholder="CPF" data-rule="minlen:9"
+                                                    data-msg="Por favor digite um cpf válido" />
+                                                <div class="validation"></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" name="email" id="email"
+                                                    placeholder="Email" data-rule="email"
+                                                    data-msg="Por favor digite um email válido" />
+                                                <div class="validation"></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="subject" id="subject"
+                                                    placeholder="Subject" data-rule="minlen:4"
+                                                    data-msg="Please enter at least 8 chars of subject" />
+                                                <div class="validation"></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="message" rows="5"
+                                                    data-rule="required" data-msg="Please write something for us"
+                                                    placeholder="Message"></textarea>
+                                                <div class="validation"></div>
+                                            </div>
+                                            <div class="text-center"><button type="submit">Send Message</button></div>
                                         </form>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
