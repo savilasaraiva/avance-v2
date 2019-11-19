@@ -1,0 +1,42 @@
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.icon-container {
+  margin-bottom: 20px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; }
+  .icon-container:hover, .icon-container:hover .name {
+    color: #bbb; }
+  .icon-container i {
+    font-size: 2em;
+    margin-right: 10px; }
+  .icon-container .name {
+    font-size: 0.8em; }
+
+#search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; }
+  #search form {
+    width: 50%;
+    min-width: 300px; }
+
+.quick-copy-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .quick-copy-inputs .quick-copy {
+    width: 40%;
+    min-width: 250px; }
+
+.sample-sizes {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=style.css.map */
